@@ -57,6 +57,8 @@ Results in the following routes:
     app_book_create          GET|POST        ANY      ANY    /library/new
     app_book_update          GET|PUT|PATCH   ANY      ANY    /library/{id}/edit
     app_book_delete          DELETE          ANY      ANY    /library/{id}
+    
+And finally run php bin/console cache:clear .
 
 Generating API CRUD Routing
 ---------------------------
